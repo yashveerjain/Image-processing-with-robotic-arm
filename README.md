@@ -1,6 +1,6 @@
 # Image-processing-with-robotic-arm
 ## About:
-    This Robot was built for the segragation of metallic round object, which can be used in industries or for garbage segregation if fix sized and shape object need to be segregated.
+* This Robot was built for the segragation of metallic round object, which can be used in industries or for garbage segregation if fix sized and shape object need to be segregated.
 ## Technical details:
 ### Software:
 *  Through background subtraction and using Inverse Kinematics we can move the robotic arm.
@@ -11,7 +11,7 @@
 
 
 >Device image 
-![](image/industrial-robot.png)
+![](images/industrial-robot.png)
 
 [demo video](https://drive.google.com/file/d/1eLh3OXNollj0qVDoGT9Q1KkzQ-V80hNA/view?usp=sharing) for single object localization and tracing.
 
