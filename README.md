@@ -3,8 +3,8 @@
 * This Robot was built for the segragation of metallic round object, which can be used in industries or for garbage segregation if fix sized and shape object need to be segregated.
 ## Technical details:
 ### Software:
-*  Through background subtraction and using Inverse Kinematics we can move the robotic arm.
-* The code is written in python and import the library pyfirmata for communicating with the arduino and then run the example of standard firmata library in arduino.
+*  Through image background subtraction using opencv, and implementing Inverse Kinematics for manipulator according to changes in image, we can move the robotic arm.
+* The code is written in python, dependent on opencv, numpy and imported the library pyfirmata for communicating with the arduino and then run the example of standard firmata library in arduino.
 ### Hardware:
 * 2 stepper motors was used with easy driver (for better control of stepper motor) and Arduino as micro-controller.
 * Camera and Laptop was used to read the camera frames and process it, finally transmitting to Arduino for controlling stepper motor to move the end effector to desired location.
